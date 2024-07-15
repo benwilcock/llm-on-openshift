@@ -24,10 +24,10 @@ spec:
         - resources:
             limits:
               cpu: '8'
-              memory: 24Gi
+              memory: 18Gi
               nvidia.com/gpu: '1'
             requests:
-              cpu: '6'
+              cpu: '3'
           readinessProbe:
             httpGet:
               path: /health
