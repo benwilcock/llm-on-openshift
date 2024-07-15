@@ -23,7 +23,7 @@ spec:
       containers:
         - resources:
             limits:
-              cpu: '8'
+              cpu: '3'
               memory: 18Gi
               nvidia.com/gpu: '1'
             requests:
